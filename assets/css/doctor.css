@@ -1,0 +1,49 @@
+.doctors {
+  background: linear-gradient(180deg, #f8fbfc 0%, #fff 100%);
+}
+
+.doctor-grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.doctor-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 32px;
+  box-shadow: var(--shadow-soft);
+  overflow: hidden;
+}
+
+.doctor-card img {
+  background: var(--surface-soft);
+  height: 440px;
+  object-fit: contain;
+  object-position: bottom center;
+  width: 100%;
+}
+
+.doctor-card div {
+  padding: 30px;
+}
+
+.doctor-role {
+  color: var(--blue);
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.doctor-card h3 {
+  font-size: 30px;
+}
+
+.qualification {
+  color: var(--gold);
+  font-weight: 900;
+  margin: 4px 0 16px;
+}

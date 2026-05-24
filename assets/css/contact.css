@@ -1,0 +1,87 @@
+.appointment {
+  background: var(--ink);
+}
+
+.appointment-card {
+  align-items: start;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.08), rgba(200, 161, 90, 0.18)),
+    var(--blue-dark);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 36px;
+  color: #fff;
+  display: grid;
+  gap: 36px;
+  grid-template-columns: 0.95fr 1.05fr;
+  padding: 48px;
+}
+
+.appointment-card p,
+.appointment-card .eyebrow {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.appointment-form {
+  display: grid;
+  gap: 14px;
+}
+
+.appointment-form label span {
+  color: rgba(255, 255, 255, 0.76);
+  display: block;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.appointment-form input,
+.appointment-form select {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid transparent;
+  border-radius: 16px;
+  min-height: 52px;
+  outline: none;
+  padding: 0 16px;
+  width: 100%;
+}
+
+.form-status {
+  min-height: 24px;
+}
+
+.contact {
+  background: #fff;
+}
+
+.contact-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 32px;
+  box-shadow: var(--shadow-soft);
+  padding: 34px;
+}
+
+.contact-card a:not(.btn) {
+  color: var(--blue-dark);
+  display: block;
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: 12px;
+}
+
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.map {
+  border: 0;
+  border-radius: 32px;
+  box-shadow: var(--shadow-soft);
+  height: 520px;
+  width: 100%;
+}

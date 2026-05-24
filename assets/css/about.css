@@ -1,0 +1,56 @@
+.about {
+  background: #fff;
+}
+
+.about-grid,
+.choose-grid,
+.faq-grid,
+.contact-grid {
+  align-items: center;
+  display: grid;
+  gap: 64px;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1fr);
+}
+
+.image-stack {
+  display: grid;
+  grid-template-columns: 1fr 0.78fr;
+  min-height: 520px;
+  position: relative;
+}
+
+.image-stack img {
+  border: 8px solid #fff;
+  border-radius: 34px;
+  box-shadow: var(--shadow);
+  height: 420px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.image-stack img:first-child {
+  align-self: end;
+}
+
+.image-stack img:last-child {
+  align-self: start;
+  margin-left: -46px;
+  margin-top: 18px;
+}
+
+.mini-points {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.mini-points span {
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--blue-dark);
+  font-size: 13px;
+  font-weight: 900;
+  padding: 10px 14px;
+}
